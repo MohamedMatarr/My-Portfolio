@@ -860,30 +860,8 @@ h1, h2, h3, h4, h5, h6 {
 .edu-dept {
   font-size: 0.85rem;
   color: var(--text-muted);
-  margin-bottom: 16px;
 }
 
-.edu-gpa {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  padding: 10px 14px;
-  background: rgba(56, 189, 248, 0.08);
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(56, 189, 248, 0.15);
-}
-
-.gpa-label {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-}
-
-.gpa-value {
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--accent-cyan);
-}
 
 /* --------------------------------------------------------------------------
    8. SKILLS SECTION
@@ -1476,39 +1454,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-secondary);
 }
 
-.edu-gpa-badge {
-  flex-shrink: 0;
-  text-align: center;
-  padding: 16px 20px;
-  background: var(--bg-surface);
-  border: 1px solid rgba(56, 189, 248, 0.2);
-  border-radius: var(--radius-lg);
-}
-
-.gpa-score {
-  display: block;
-  font-family: var(--font-heading);
-  font-size: 2rem;
-  font-weight: 800;
-  line-height: 1;
-  color: var(--accent-cyan);
-}
-
-.gpa-scale {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  font-weight: 600;
-}
-
-.gpa-status {
-  display: block;
-  margin-top: 6px;
-  font-size: 0.72rem;
-  color: var(--accent-emerald);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
 
 /* --------------------------------------------------------------------------
    13. CAREER OBJECTIVE SECTION
@@ -2258,9 +2203,6 @@ h1, h2, h3, h4, h5, h6 {
     gap: 20px;
   }
 
-  .edu-gpa-badge {
-    align-self: stretch;
-  }
 
   .footer-top {
     grid-template-columns: 1fr;
