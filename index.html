@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mohamed Hossam | AI Engineer - Machine Learning &amp; Deep Learning</title>
+  <meta name="description"
+    content="Portfolio of Mohamed Hossam, an AI Engineer specializing in Machine Learning, Deep Learning, Data Analysis, and practical AI applications. Engineering student at Menoufia University (GPA 3.61).">
+  <meta name="keywords"
+    content="Mohamed Hossam, AI Engineer, Machine Learning, Deep Learning, Data Analysis, Python, Streamlit, Scikit-learn, TensorFlow, Portfolio">
+  <meta name="author" content="Mohamed Hossam">
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:title" content="Mohamed Hossam | AI Engineer">
+  <meta property="og:description"
+    content="I build practical AI solutions that transform ideas and data into professional, ready-to-use applications.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Mohamed Hossam - AI Engineer Home">
+        <span class="brand-code">&lt;</span>
+        <span class="brand-name">Mohamed Hossam</span>
+        <span class="brand-tag">AI</span>
+        <span class="brand-code">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#training" class="nav-link">Training</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Controls: Theme Toggle & Hamburger -->
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" type="button" aria-label="Toggle light or dark theme"
+          title="Toggle theme">
+          <i class="fa-solid fa-moon dark-icon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun light-icon" aria-hidden="true"></i>
+        </button>
+
+        <button id="menuToggle" class="menu-toggle-btn" type="button" aria-label="Open mobile navigation menu"
+          aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <canvas id="neuralCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Status Badge -->
+          <div class="hero-badge reveal">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Available for Practical AI Projects &amp; Collaborations</span>
+          </div>
+
+          <!-- Name & Main Title -->
+          <h1 class="hero-title reveal">
+            <span class="gradient-text">Mohamed Hossam</span>
+          </h1>
+
+          <div class="hero-role-row reveal">
+            <span class="role-badge">AI Engineer</span>
+          </div>
+
+          <p class="hero-positioning reveal">
+            <span>Machine Learning &amp; Deep Learning</span>
+            <span class="bullet">•</span>
+            <span>Data Analysis</span>
+            <span class="bullet">•</span>
+            <span>AI Solutions</span>
+          </p>
+
+          <!-- Polished Intro Statement -->
+          <p class="hero-intro reveal">
+            I build practical AI solutions that transform ideas and data into professional, ready-to-use applications,
+            with strong attention to detail and a focus on delivering real value.
+          </p>
+
+          <!-- Core Brand Pillars -->
+          <div class="hero-pillars reveal">
+            <div class="pillar-pill">
+              <i class="fa-solid fa-circle-check text-cyan" aria-hidden="true"></i>
+              <span>Reliable</span>
+            </div>
+            <div class="pillar-pill">
+              <i class="fa-solid fa-crosshairs text-indigo" aria-hidden="true"></i>
+              <span>Detail-Oriented</span>
+            </div>
+            <div class="pillar-pill">
+              <i class="fa-solid fa-award text-emerald" aria-hidden="true"></i>
+              <span>Professional</span>
+            </div>
+          </div>
+
+          <!-- Call-To-Action Buttons -->
+          <div class="hero-cta-group reveal">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Secondary Social Links -->
+          <div class="hero-socials reveal">
+            <span class="socials-label">Connect:</span>
+            <a href="https://github.com/MohamedMatarr" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="Mohamed Hossam on GitHub" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mohamed-matar-2aa300275" target="_blank" rel="noopener noreferrer"
+              class="social-icon" aria-label="Mohamed Hossam on LinkedIn" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:mohamedmatarr.13.3@gmail.com" class="social-icon" aria-label="Email Mohamed Hossam"
+              title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right: Professional Visual -->
+        <div class="hero-visual reveal">
+          <div class="hero-image-card">
+            <img src="assets/mohamed_hossam.jpg" alt="Mohamed Hossam - AI Engineer" class="hero-image" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-user-astronaut"></i> Background</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-desc">Practical AI engineering driven by first-principles problem solving and engineering
+            rigor.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- About Narrative -->
+          <div class="about-card main-about reveal">
+            <h3 class="about-subheading">Engineering Foundation &amp; Problem Solving</h3>
+            <p class="about-text">
+              As a Computer Engineering student specializing in AI, I focus on building practical, high-performance
+              <strong>Machine Learning</strong> and <strong>Data Science</strong> solutions. I handle the complete data
+              lifecycle—from raw data cleaning and feature engineering to building robust models and deploying
+              interactive <strong>Streamlit</strong>/<strong>Gradio</strong> web apps. My goal is simple: deliver clean,
+              reliable AI tools that solve complex business problems efficiently.
+            </p>
+
+            <div class="about-pillars-grid">
+              <div class="about-pillar-card">
+                <div class="pillar-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                <h4>Reliable</h4>
+                <p>Consistent delivery, transparent communication, and validated model performance.</p>
+              </div>
+              <div class="about-pillar-card">
+                <div class="pillar-icon-box"><i class="fa-solid fa-bullseye"></i></div>
+                <h4>Detail-Oriented</h4>
+                <p>Meticulous data preprocessing, feature selection, and edge-case handling.</p>
+              </div>
+              <div class="about-pillar-card">
+                <div class="pillar-icon-box"><i class="fa-solid fa-handshake"></i></div>
+                <h4>Professional</h4>
+                <p>Client-first focus, structured deliverables, and post-delivery revision support.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Fact / Capabilities Sidebar -->
+          <div class="about-sidebar reveal">
+            <div class="glass-box capability-box">
+              <h4 class="box-title"><i class="fa-solid fa-layer-group text-cyan"></i> What I Deliver</h4>
+              <ul class="capability-list">
+                <li>
+                  <i class="fa-solid fa-check text-emerald"></i>
+                  <span><strong>Full Data Pipeline:</strong> Preparation, cleaning, feature scaling, &amp;
+                    encoding.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-emerald"></i>
+                  <span><strong>Model Development:</strong> Supervised &amp; unsupervised ML, ANN, and CNN
+                    models.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-emerald"></i>
+                  <span><strong>Interactive Web UIs:</strong> Functional, responsive apps via Streamlit &amp;
+                    Gradio.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-emerald"></i>
+                  <span><strong>Clear Documentation:</strong> Clean notebooks, structured repositories, &amp; metrics
+                    reports.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-emerald"></i>
+                  <span><strong>Post-Delivery Support:</strong> Assistance with adjustments, tuning, and
+                    deployment.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="glass-box education-highlight">
+              <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i> Academic Merit</div>
+              <h4 class="edu-school">Menoufia University</h4>
+              <p class="edu-faculty">Faculty of Electronic Engineering</p>
+              <p class="edu-dept">Computer Science Department • Class of 2028</p>
+              <div class="edu-gpa">
+                <span class="gpa-label">Cumulative GPA:</span>
+                <span class="gpa-value">3.61 / 4.0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-microchip"></i> Capabilities</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-desc">Practical technologies, libraries, and mathematical methodologies I utilize to solve
+            real-world problems.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Languages -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon text-cyan"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <p class="category-subtitle">Core computational foundations</p>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <div class="skill-chip">
+                <span class="chip-name"><i class="fa-brands fa-python text-yellow"></i> Python</span>
+                <span class="chip-level level-strong">Strong</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name"><i class="fa-solid fa-c"></i> C++</span>
+                <span class="chip-level level-good">Good</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name"><i class="fa-solid fa-database text-cyan"></i> SQL</span>
+                <span class="chip-level level-good">Good</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name"><i class="fa-brands fa-html5 text-orange"></i> HTML</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name"><i class="fa-brands fa-java text-red"></i> Java</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Machine Learning -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon text-indigo"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h3 class="category-title">Machine Learning</h3>
+                <p class="category-subtitle">Algorithmic modeling &amp; evaluation</p>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">Data Cleaning &amp; Preprocessing</span>
+              <span class="skill-tag">Exploratory Data Analysis (EDA)</span>
+              <span class="skill-tag">Classification &amp; Regression</span>
+              <span class="skill-tag">Clustering Algorithms</span>
+              <span class="skill-tag">Feature Engineering</span>
+              <span class="skill-tag">Feature Selection</span>
+              <span class="skill-tag">Model Evaluation &amp; Metrics</span>
+              <span class="skill-tag">Hyperparameter Tuning</span>
+              <span class="skill-tag">Ensemble Learning (Random Forest)</span>
+              <span class="skill-tag">Support Vector Classifiers (SVC)</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Data Analysis & Visualization -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon text-emerald"><i class="fa-solid fa-chart-line"></i></div>
+              <div>
+                <h3 class="category-title">Data Analysis &amp; Visualization</h3>
+                <p class="category-subtitle">Extracting patterns and actionable insights</p>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <div class="skill-chip">
+                <span class="chip-name">Pandas</span>
+                <span class="chip-level level-strong">Strong</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">NumPy</span>
+                <span class="chip-level level-strong">Strong</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">Matplotlib</span>
+                <span class="chip-level level-strong">Strong</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">Seaborn</span>
+                <span class="chip-level level-strong">Strong</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">Plotly</span>
+                <span class="chip-level level-good">Good</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">Excel</span>
+                <span class="chip-level level-good">Good</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">Power BI</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Deep Learning -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon text-purple"><i class="fa-solid fa-network-wired"></i></div>
+              <div>
+                <h3 class="category-title">Deep Learning</h3>
+                <p class="category-subtitle">Neural network architectures &amp; vision</p>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <div class="skill-chip">
+                <span class="chip-name">TensorFlow</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">Keras</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+              <span class="skill-tag">Artificial Neural Networks (ANN)</span>
+              <span class="skill-tag">Convolutional Neural Networks (CNN)</span>
+              <div class="skill-chip">
+                <span class="chip-name">RNN</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+              <div class="skill-chip">
+                <span class="chip-name">LSTM</span>
+                <span class="chip-level level-basic">Basic</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 5: Tools & Platforms -->
+          <div class="skill-category-card reveal full-width-card">
+            <div class="category-header">
+              <div class="category-icon text-amber"><i class="fa-solid fa-toolbox"></i></div>
+              <div>
+                <h3 class="category-title">Tools, Deployment &amp; Platforms</h3>
+                <p class="category-subtitle">Production workflows &amp; rapid application building</p>
+              </div>
+            </div>
+            <div class="tools-grid">
+              <div class="tool-item">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-solid fa-bolt text-red"></i>
+                <span>Streamlit</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-solid fa-sliders text-orange"></i>
+                <span>Gradio</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-solid fa-book-open text-orange"></i>
+                <span>Jupyter Notebook</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-solid fa-code text-cyan"></i>
+                <span>VS Code</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-brands fa-linux"></i>
+                <span>Linux</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-solid fa-circle-nodes text-emerald"></i>
+                <span>Anaconda</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-brands fa-kaggle text-cyan"></i>
+                <span>Kaggle</span>
+              </div>
+              <div class="tool-item">
+                <i class="fa-solid fa-cloud text-amber"></i>
+                <span>Google Colab</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-flask-vial"></i> Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-desc">Practical, end-to-end Machine Learning systems designed to solve concrete operational
+            challenges.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01: Predictive Maintenance System (Featured) -->
+          <article class="project-card featured-project reveal" data-project-id="project-maintenance">
+            <div class="featured-badge"><i class="fa-solid fa-star"></i> Featured Solution</div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type"><i class="fa-solid fa-industry"></i> Industrial ML System</span>
+                <span class="project-stage">Binary &amp; Multi-Class</span>
+              </div>
+              <h3 class="project-title">Predictive Maintenance System</h3>
+              <p class="project-summary">
+                A two-stage machine learning system that predicts whether industrial machinery is approaching failure,
+                and identifies the exact failure type (HDF, OSF, PWF, RNF, TWF) before downtime occurs.
+              </p>
+
+              <!-- Technical Highlights -->
+              <div class="project-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Best Model:</span>
+                  <span class="spec-value">Random Forest</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Precision:</span>
+                  <span class="spec-value highlight-cyan">91%</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Recall:</span>
+                  <span class="spec-value highlight-cyan">82%</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Dataset:</span>
+                  <span class="spec-value">10,000 Records</span>
+                </div>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">Streamlit</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Random Forest</span>
+                <span class="tag">SVC</span>
+                <span class="tag">ANN</span>
+                <span class="tag">Feature Engineering</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-sm btn-outline open-modal-btn" data-modal="project-maintenance">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/MohamedMatarr/Final_project_NTI" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-ghost">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://finalprojectnti-cza4oepmzmd8uq3ayg8xrh.streamlit.app/" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: Ecommerce Customer Churn Prediction -->
+          <article class="project-card reveal" data-project-id="project-churn">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type"><i class="fa-solid fa-cart-shopping"></i> Ecommerce ML System</span>
+                <span class="project-stage">Binary Classification</span>
+              </div>
+              <h3 class="project-title">Ecommerce Customer Churn Prediction</h3>
+              <p class="project-summary">
+                A machine learning system that predicts whether an e-commerce customer is likely to churn, using
+                behavioral and transactional features such as tenure, satisfaction score, complaints, and cashback
+                activity — enabling proactive retention strategies.
+              </p>
+
+              <!-- Technical Highlights -->
+              <div class="project-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Best Model:</span>
+                  <span class="spec-value">Random Forest</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Accuracy:</span>
+                  <span class="spec-value highlight-cyan">94%</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Precision:</span>
+                  <span class="spec-value highlight-cyan">90%</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Recall:</span>
+                  <span class="spec-value highlight-cyan">73%</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">ROC-AUC:</span>
+                  <span class="spec-value">0.9587</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Dataset:</span>
+                  <span class="spec-value">3,941 Records</span>
+                </div>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">Streamlit</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Random Forest</span>
+                <span class="tag">AdaBoost</span>
+                <span class="tag">GridSearchCV</span>
+                <span class="tag">Feature Engineering</span>
+                <span class="tag">KNN Imputer</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-sm btn-outline open-modal-btn" data-modal="project-churn">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/MohamedMatarr/Ecommerce_Customer_Churn.git" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://ecommercecustomerchurn.streamlit.app/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-primary">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: Plant Disease Classification -->
+          <article class="project-card reveal" data-project-id="project-plant">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type"><i class="fa-solid fa-leaf"></i> Computer Vision</span>
+                <span class="project-stage">Deep Learning</span>
+              </div>
+              <h3 class="project-title">Plant Disease Classification</h3>
+              <p class="project-summary">
+                A Deep Learning computer vision model designed to classify plant diseases from leaf photography,
+                assisting agricultural stakeholders in early symptom detection and crop protection.
+              </p>
+
+              <!-- Technical Highlights -->
+              <div class="project-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Architecture:</span>
+                  <span class="spec-value">CNN (Convolutional)</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Framework:</span>
+                  <span class="spec-value">TensorFlow &amp; Keras</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Domain:</span>
+                  <span class="spec-value">AgriTech Vision</span>
+                </div>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Keras</span>
+                <span class="tag">CNN</span>
+                <span class="tag">Image Classification</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-sm btn-outline open-modal-btn" data-modal="project-plant">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/MohamedMatarr" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-ghost" title="Repository in progress">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <button type="button" class="btn btn-sm btn-disabled" disabled title="Deployment link coming soon">
+                  <i class="fa-solid fa-lock"></i> Demo Soon
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: Scouting Analysis System -->
+          <article class="project-card reveal" data-project-id="project-scouting">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type"><i class="fa-solid fa-futbol"></i> Sports Analytics</span>
+                <span class="project-stage">Data Analysis</span>
+              </div>
+              <h3 class="project-title">Scouting Analysis System</h3>
+              <p class="project-summary">
+                A data-driven scouting analytics pipeline that examines multi-dimensional player performance metrics,
+                providing decision-makers with interactive visual comparisons and talent insights.
+              </p>
+
+              <!-- Technical Highlights -->
+              <div class="project-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Focus:</span>
+                  <span class="spec-value">Decision Intelligence</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Analytics:</span>
+                  <span class="spec-value">Pandas &amp; Plotly</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">UI:</span>
+                  <span class="spec-value">Interactive Dashboard</span>
+                </div>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">Data Analysis</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Visualization</span>
+                <span class="tag">Interactive UI</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-sm btn-outline open-modal-btn" data-modal="project-scouting">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/MohamedMatarr" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-ghost" title="Repository in progress">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <button type="button" class="btn btn-sm btn-disabled" disabled title="Deployment link coming soon">
+                  <i class="fa-solid fa-lock"></i> Demo Soon
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04: FIFA Player Rating Classification -->
+          <article class="project-card reveal" data-project-id="project-fifa">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type"><i class="fa-solid fa-trophy"></i> Predictive Classification</span>
+                <span class="project-stage">Supervised ML</span>
+              </div>
+              <h3 class="project-title">FIFA Player Rating Classification</h3>
+              <p class="project-summary">
+                A machine learning system predicting whether a footballer qualifies for elite rating status based on
+                physical and technical attributes, deployed with a responsive Gradio interface.
+              </p>
+
+              <!-- Technical Highlights -->
+              <div class="project-specs">
+                <div class="spec-item">
+                  <span class="spec-label">Model:</span>
+                  <span class="spec-value">Support Vector Classifier</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Accuracy:</span>
+                  <span class="spec-value highlight-cyan">99.3%</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Dataset:</span>
+                  <span class="spec-value">19,667 Records</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Interface:</span>
+                  <span class="spec-value">Gradio UI</span>
+                </div>
+              </div>
+
+              <!-- Tech Tags -->
+              <div class="project-tags">
+                <span class="tag">Gradio</span>
+                <span class="tag">SVC</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Classification</span>
+                <span class="tag">Feature Engineering</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-sm btn-outline open-modal-btn" data-modal="project-fifa">
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+                <a href="https://github.com/MohamedMatarr" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-sm btn-ghost" title="Repository in progress">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <button type="button" class="btn btn-sm btn-disabled" disabled title="Deployment link coming soon">
+                  <i class="fa-solid fa-lock"></i> Demo Soon
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-hand-holding-hand"></i> Solutions</span>
+          <h2 class="section-title">Services &amp; <span class="gradient-text">Offerings</span></h2>
+          <p class="section-desc">Practical, client-oriented AI services built with precision, clarity, and ongoing
+            post-delivery collaboration.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card reveal">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3 class="service-title">Machine Learning Solutions</h3>
+            <p class="service-desc">
+              Designing, training, and benchmarking robust classification, regression, clustering, and predictive
+              pipelines tailored precisely to client business objectives and domain parameters.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Supervised &amp; Unsupervised algorithms</li>
+              <li><i class="fa-solid fa-check"></i> Rigorous cross-validation &amp; hyperparameter tuning</li>
+              <li><i class="fa-solid fa-check"></i> Scikit-learn &amp; ensemble architectures</li>
+            </ul>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card reveal">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <h3 class="service-title">Data Analysis &amp; Visualization</h3>
+            <p class="service-desc">
+              Cleaning raw datasets, resolving inconsistencies, performing deep exploratory data analysis, and crafting
+              informative visual dashboards to extract actionable intelligence.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Ingestion, missing value treatment &amp; outlier filtering</li>
+              <li><i class="fa-solid fa-check"></i> High-clarity Seaborn, Plotly &amp; Matplotlib charts</li>
+              <li><i class="fa-solid fa-check"></i> Actionable insights to guide business decisions</li>
+            </ul>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card reveal">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3 class="service-title">Deep Learning Solutions</h3>
+            <p class="service-desc">
+              Developing neural network architectures for specialized non-linear problems, including computer vision
+              image classification and preliminary sequence tasks.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Artificial Neural Networks (ANN)</li>
+              <li><i class="fa-solid fa-check"></i> Convolutional Neural Networks (CNN) for imagery</li>
+              <li><i class="fa-solid fa-check"></i> TensorFlow and Keras implementations</li>
+            </ul>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card reveal">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3 class="service-title">AI Apps &amp; Model Deployment</h3>
+            <p class="service-desc">
+              Bridging the gap between a trained model file and an intuitive user interface that stakeholders can test,
+              verify, and incorporate into daily workflows.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Interactive Streamlit web applications</li>
+              <li><i class="fa-solid fa-check"></i> Lightweight Gradio model testing interfaces</li>
+              <li><i class="fa-solid fa-check"></i> Clean documentation &amp; local/cloud deployment</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Post Delivery Commitment Banner -->
+        <div class="service-commitment reveal">
+          <div class="commitment-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="commitment-text">
+            <h4>Value Guarantee &amp; Post-Delivery Support</h4>
+            <p>I value clear expectations and open communication. Every project includes post-delivery assistance to
+              ensure seamless onboarding, help with parameter tuning, and support future refinements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training & Experience Section -->
+    <section class="section training-section" id="training">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-certificate"></i> Specialized Training</span>
+          <h2 class="section-title">Hands-On <span class="gradient-text">Training &amp; Experience</span></h2>
+          <p class="section-desc">Intensive, project-focused technical training programs under leading regional AI
+            institutions.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1: DEPI -->
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-tag">Intensive Program</span>
+                <span class="timeline-org">Digital Egypt Pioneers Initiative (DEPI)</span>
+              </div>
+              <h3 class="timeline-role">AI / Machine Learning Trainee</h3>
+              <p class="timeline-desc">
+                Engaged in comprehensive, practical training dedicated to Artificial Intelligence and Machine Learning.
+                Focused on hands-on labs, algorithmic problem solving, structured pipelines, and collaborative project
+                execution.
+              </p>
+              <div class="timeline-topics">
+                <span>Machine Learning</span>
+                <span>Applied AI</span>
+                <span>Project-Based Development</span>
+                <span>Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: EraaSoft -->
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-tag">Hands-on Cohort</span>
+                <span class="timeline-org">EraaSoft</span>
+              </div>
+              <h3 class="timeline-role">AI Trainee</h3>
+              <p class="timeline-desc">
+                Completed intensive hands-on training covering core Python, OOP, and Data Structures, transitioning into
+                comprehensive Data Science and Machine Learning workflows. Built end-to-end projects implementing
+                Supervised &amp; Unsupervised Machine Learning algorithms (Classification, Regression, Clustering)
+                alongside Deep Learning architectures (ANN, CNN) and foundational Computer Vision &amp; Natural Language
+                Processing.
+              </p>
+              <div class="timeline-topics">
+                <span>Python</span>
+                <span>OOP</span>
+                <span>Data Structures</span>
+                <span>Pandas &amp; NumPy</span>
+                <span>Scikit-Learn</span>
+                <span>Machine Learning</span>
+                <span>Deep Learning (ANN/CNN)</span>
+                <span>Computer Vision</span>
+                <span>NLP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: NTI -->
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fa-solid fa-tower-broadcast"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <span class="timeline-tag">Technical Track</span>
+                <span class="timeline-org">National Telecommunication Institute (NTI)</span>
+              </div>
+              <h3 class="timeline-role">Machine Learning &amp; Deep Learning Trainee</h3>
+              <p class="timeline-desc">
+                Completed rigorous training structured from core Machine Learning mathematics to advanced neural models
+                and applied capstone engineering, producing the end-to-end Predictive Maintenance System with
+                interactive Streamlit deployment.
+              </p>
+              <div class="timeline-topics">
+                <span>Model Implementation</span>
+                <span>Deep Learning</span>
+                <span>Production Workflows</span>
+                <span>Streamlit Deployment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-book"></i> Academics</span>
+          <h2 class="section-title"><span class="gradient-text">Education</span></h2>
+        </div>
+
+        <div class="education-card reveal">
+          <div class="edu-card-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="edu-card-content">
+            <div class="edu-top-row">
+              <h3 class="edu-degree">Bachelor of Science in Computer Science &amp; Engineering</h3>
+              <span class="edu-years"><i class="fa-regular fa-calendar"></i> Expected Graduation: 2028</span>
+            </div>
+            <h4 class="edu-institution">Menoufia University — Faculty of Electronic Engineering (Dept. of Computer
+              Science)</h4>
+            <p class="edu-summary">Bridging core computer science theory with end-to-end Machine Learning deployment and
+              practical AI solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Career Objective Section -->
+    <section class="section objective-section" id="objective">
+      <div class="container">
+        <div class="objective-card reveal">
+          <div class="objective-pattern" aria-hidden="true"></div>
+          <div class="objective-inner">
+            <div class="objective-tag"><i class="fa-solid fa-compass"></i> Career Vision</div>
+            <blockquote class="objective-quote">
+              "To grow as an AI Engineer by building practical Machine Learning and Deep Learning solutions that solve
+              real-world problems, create measurable value, and continuously improve through hands-on projects and real
+              client needs."
+            </blockquote>
+            <div class="objective-signature">
+              <span class="sig-name">Mohamed Hossam</span>
+              <span class="sig-title">AI Engineer • Continuous Learner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Collaboration</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-desc">Have an AI project, machine learning problem, or data challenge?
+            Let’s turn your ideas and data into a practical, ready-to-use AI solution — built around your exact needs.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact Information Cards -->
+          <div class="contact-info-column reveal">
+            <div class="info-card">
+              <div class="info-icon text-cyan"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-body">
+                <span class="info-label">Email</span>
+                <a href="mailto:mohamedmatarr.13.3@gmail.com" class="info-link">mohamedmatarr.13.3@gmail.com</a>
+                <span class="info-sub">Direct response within 24 hours</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon text-indigo"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-body">
+                <span class="info-label">Direct Line</span>
+                <a href="tel:01015593109" class="info-link">01015593109</a>
+                <span class="info-sub">Available for scheduled calls &amp; inquiries</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon text-emerald"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-body">
+                <span class="info-label">Location</span>
+                <span class="info-text">Egypt (Remote / Worldwide Collaboration)</span>
+                <span class="info-sub">Timezone: UTC+2 / UTC+3</span>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="contact-socials-box">
+              <span class="socials-heading">Professional Profiles &amp; Channels</span>
+              <div class="socials-grid">
+                <a href="https://www.linkedin.com/in/mohamed-matar-2aa300275" target="_blank" rel="noopener noreferrer"
+                  class="social-btn" aria-label="LinkedIn Profile">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/MohamedMatarr" target="_blank" rel="noopener noreferrer" class="social-btn"
+                  aria-label="GitHub Profile">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="contact-form-column reveal">
+            <form id="contactForm" class="contact-form" action="https://formspree.io/f/myeyqywn" method="POST"
+              novalidate>
+              <div class="form-group">
+                <label for="userName" class="form-label">Full Name <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Sarah Jenkins"
+                    required>
+                </div>
+                <span class="error-msg" id="nameError">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail" class="form-label">Email Address <span class="required">*</span></label>
+                <div class="input-wrap">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="userEmail" name="email" class="form-input"
+                    placeholder="e.g. sarah@company.com" required>
+                </div>
+                <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="serviceInterest" class="form-label">Primary Interest / Service</label>
+                <div class="input-wrap">
+                  <i class="fa-solid fa-list-check input-icon"></i>
+                  <select id="serviceInterest" name="service" class="form-input form-select">
+                    <option value="ml-solutions">Machine Learning Solutions</option>
+                    <option value="data-analysis">Data Analysis &amp; Visualization</option>
+                    <option value="deep-learning">Deep Learning Solution</option>
+                    <option value="ai-deployment">Model Deployment (Streamlit / Gradio)</option>
+                    <option value="general">General Collaboration / Inquiries</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage" class="form-label">Project Details &amp; Message <span
+                    class="required">*</span></label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fa-regular fa-comment-dots input-icon"></i>
+                  <textarea id="userMessage" name="message" class="form-input form-textarea" rows="4"
+                    placeholder="Briefly describe your project requirements, dataset, or goals..." required></textarea>
+                </div>
+                <span class="error-msg" id="messageError">Please enter a brief message.</span>
+              </div>
+
+              <button type="submit" id="submitBtn" class="btn btn-primary btn-block">
+                <span class="btn-text">Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div id="formStatus" class="form-status-box" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Details Modal -->
+  <div id="projectModal" class="project-modal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-badge-group">
+          <span id="modalType" class="modal-pill">Category</span>
+          <span id="modalTag" class="modal-pill pill-cyan">Architecture</span>
+        </div>
+        <button type="button" id="closeModalBtn" class="modal-close-btn" aria-label="Close project details dialog">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <h3 id="modalTitle" class="modal-title">Project Title</h3>
+        <p id="modalDescription" class="modal-summary">Full description goes here.</p>
+
+        <div class="modal-section-title"><i class="fa-solid fa-gear"></i> Technical Specs &amp; Results</div>
+        <div id="modalSpecsGrid" class="modal-specs-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <div class="modal-section-title"><i class="fa-solid fa-code-branch"></i> Engineering Details</div>
+        <div id="modalDetailsText" class="modal-rich-text">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <div class="modal-section-title"><i class="fa-solid fa-layer-group"></i> Technologies Used</div>
+        <div id="modalTechStack" class="modal-tech-stack">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div id="modalLinks" class="modal-links-row">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top of page" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-brand">
+            <span class="brand-code">&lt;</span>
+            <span class="brand-name">Mohamed Hossam</span>
+            <span class="brand-tag">AI</span>
+            <span class="brand-code">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            Practical AI Engineering • Machine Learning &amp; Deep Learning • Data Analysis
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <span class="footer-heading">Quick Navigation</span>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-column">
+          <span class="footer-heading">Profiles</span>
+          <div class="footer-socials">
+            <a href="https://github.com/MohamedMatarr" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mohamed-matar-2aa300275" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:mohamedmatarr.13.3@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+          <p class="footer-availability">
+            <span class="live-dot"></span> Available for freelance &amp; project collaborations
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear"></span> <strong>Mohamed Hossam</strong>. All rights reserved. Crafted with clean
+          HTML5, CSS3, &amp; Vanilla JavaScript.
+        </p>
+        <a href="#hero" class="footer-top-link">
+          <span>Back to top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
